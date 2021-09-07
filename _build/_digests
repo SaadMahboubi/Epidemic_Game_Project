@@ -1,0 +1,4 @@
+"Rule: ocaml dependencies ml (%=test )": "$\172<\212>-\241\2232\236\158\149\161\134\005\005"
+"Resource: /mnt/d/msaad/Documents/L3/S2/PF/Projet/test.ml": "\168\023$#\1627P\179\015\203(B\146P\202\023"
+"Rule: ocaml: ml -> cmo & cmi (%=test )": "\n:85\165\249n.4V\152\198\018\206\027g"
+"Rule: ocaml: cmo* -> byte (%=test )": "\242wE\030\155\025\bE\196A\191+!\220Bd"

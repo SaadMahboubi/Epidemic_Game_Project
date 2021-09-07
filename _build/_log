@@ -1,0 +1,12 @@
+### Starting build.
+# Target: test.ml.depends, tags: { extension:ml, file:test.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep.opt -modules test.ml > test.ml.depends
+# Target: test.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:test.cmo, file:test.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc.opt -c -o test.cmo test.ml
+# Target: test.byte, tags: { byte, dont_link_with, extension:byte, file:test.byte, link, ocaml, program, quiet }
+/usr/bin/ocamlc.opt graphics.cma test.cmo -o test.byte
++ /usr/bin/ocamlc.opt graphics.cma test.cmo -o test.byte
+File "_none_", line 1:
+Error: Required module `Unix' is unavailable
+Command exited with code 2.
+# Compilation unsuccessful.
